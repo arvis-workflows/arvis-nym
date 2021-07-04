@@ -6,8 +6,8 @@
   "name": "arvis-nym",
   "readme": "",
   "defaultIcon": "icon.png",
-  "version": "0.0.3",
-  "webAddress": "https://github.com/jopemachine/arvis-store#readme",
+  "version": "0.0.4",
+  "webAddress": "https://github.com/jopemachine/arvis-nym#readme",
   "enabled": true,
   "commands": [
     {
