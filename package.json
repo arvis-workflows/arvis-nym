@@ -1,6 +1,6 @@
 {
   "name": "arvis-nym",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Synonyms and Antonyms Arvis workflow ✌️",
   "main": "index.js",
   "homepage": "https://github.com/darrikonn/arvis-nym#readme",
@@ -12,6 +12,7 @@
     "synonym",
     "antonym",
     "arvis",
+    "arvis-workflow",
     "nym"
   ],
   "files": [
