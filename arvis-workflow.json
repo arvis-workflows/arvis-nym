@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+  "category": "Tools",
+  "creator": "darrikonn",
+  "description": "Synonyms and Antonyms Arvis workflow",
+  "name": "arvis-nym",
+  "readme": "",
+  "version": "0.1.0",
+  "webAddress": "https://github.com/jopemachine/arvis-store#readme",
+  "enabled": true,
+  "commands": [
+    {
+      "type": "scriptFilter",
+      "command": "snym",
+      "title": "synonym '{query}'",
+      "subtitle": "",
+      "scriptFilter": "./node_modules/.bin/run-node index.js \"{query}\"",
+      "runningSubtext": "working...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "clipboard",
+          "text": "{query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nym",
+      "title": "nym '{query}'",
+      "subtitle": "",
+      "scriptFilter": "./node_modules/.bin/run-node index.js \"{query}\"",
+      "runningSubtext": "working...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "clipboard",
+          "text": "{query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "anym",
+      "title": "antonym '{query}'",
+      "subtitle": "",
+      "scriptFilter": "./node_modules/.bin/run-node index.js \"{query} -i\"",
+      "runningSubtext": "working...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "clipboard",
+          "text": "{query}"
+        }
+      ]
+    }
+  ]
+}
