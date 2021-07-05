@@ -21,3 +21,9 @@ Run `nym` or `snym` to get **synonyms**. Pass the `-i` flag or run `anym` to get
 - Run `nym happy -i` to get antonyms of *happy*.
 
 - Run `anym happy` to get antonyms of *happy*.
+
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/darrikonn/alfred-nym).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
